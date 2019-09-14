@@ -34,16 +34,18 @@ We are also not placing this code inside the It block because that is only for o
 ### *Answer*
 ```
 These two operators are very similiar in both looks and usability.  
-The == operator means Equals to  
+The == operator means Equals to.  
 The === operator means Equal value and equal type of data.
 ```
-#### *Question 4. test*
+#### *Question 4. Why is this code moved to the top?*
 ```
-question 4
+(number % 5 === 0)
 ```
 ### *Answer*
 ```
-
+We place this code at the top because Javascripts reads and executes the If block from top to bottom.  
+In this case we want the highest number to be executed first in order to not block or hinder the next one in line.  
+Which menas that we also will place FizzBuzz at the top since it need to be divisible by both 3 & 5.
 ```
 #### *Question 5. test*
 ```

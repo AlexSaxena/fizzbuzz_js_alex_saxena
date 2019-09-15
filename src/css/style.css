@@ -1,0 +1,36 @@
+#body {
+    background-image: url(https://data.1freewallpapers.com/detail/seasons-autumn-roads-trees-foliage-nature.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#myheader {
+    text-align:center;
+
+}
+
+#info {
+    text-align: center;
+}
+
+#value {
+    text-align: center;
+    padding: 5px;
+    float: left;
+}
+
+#button {
+    
+}
+
+#display_answer {
+    text-align: center;
+    font-size: large;
+    padding: 25px;
+}
+
+#container {
+    opacity: 0.93;
+}

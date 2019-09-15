@@ -79,21 +79,35 @@ In this case it tells the browser what actions it needs to take for the user to 
 
 ### *Answer*
 ```
-When we use expectation in the context of testing it refers to the outcome we expect our test to have.
+When we use expectation in the context of testing it refers to the outcome we expect our test to have.  
+We usually have one expect per every test It block created.
 ```
-#### *Question 8. test*
+#### *Question 8. Explain what is happening in this code.*
 ```
-question 8
+<script src="js/fizzbuzz.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let button = document.getElementById('button')
+            let displayDiv = document.getElementById('display_answer')
+            button.addEventListener('click', () =>{
+                let value = document.getElementById('value').value
+                let fizzBuzz = new FizzBuzz
+                let result = fizzBuzz.check(value)
+                displayDiv.innerHTML = result;
+            })
+        })
+    </script>
 ```
 ### *Answer*
 ```
+This entire code snippet is written in the html file using the script tag to enable Javascript code.  
+In the first line we connect our external JS file to our html file.  
+In the second script tag section, we let the buttons and answer div load in the dom and then we define what & how they should act. This means displaying FizzBuzz, Fizz or Buzz depending on the input.
+```
+#### *Question 9. Explain what a CDN (Content Delivery Network) is?*
 
-```
-#### *Question 9. test*
-```
-question 9
-```
 ### *Answer*
 ```
-
+CDN (Content Delivery Network) could almost be compared to a kind of external hosting style where you fetch data from a network of servers. What normally happens is that you fetch data from the nearest server reducing time and depending on what kind of CDN removes the need to store data locally. In this case we are fetchinig CSS like style and for this FizzBuzz page.
 ```
